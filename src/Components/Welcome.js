@@ -1,5 +1,5 @@
 import React from 'react';
-import './Welcome.css'; // Import CSS for styling
+import './Welcome.css'; 
 
 function WelcomeSection() {
   return (

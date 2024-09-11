@@ -1,17 +1,17 @@
-/* Top Bar Styling */
+
 .top-bar {
-  position: fixed; /* Fixes to the viewport */
+  position: fixed; 
   top: 0;
   left: 0;
-  width: 97%; /* Full width */
+  width: 97%;
   background-color: #ffcc00;
   display: flex;
   justify-content: space-between;
   padding: 5px 20px;
-  z-index: 1000; /* Ensure it stays above other content */
+  z-index: 1000; 
 }
 
-/* Contact Info Styling */
+
 .contact-info span {
   margin-right: 15px;
 }
@@ -22,27 +22,27 @@
   color: #000;
 }
 
-/* Main Navbar Styling */
+
 .navbar {
   position: fixed; 
   top: 20px; 
   left: 0;
-  width: 97%; /* Full width */
+  width: 97%; 
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
   overflow: hidden;
-  z-index: 999; /* Ensure it stays below the top bar */
+  z-index: 999; 
 }
 
-/* Logo Styling */
+
 .logo img {
   width: 150px;
 }
 
-/* Nav Links Styling */
+
 .nav-links {
   display: flex;
   list-style: none;

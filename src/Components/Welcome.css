@@ -1,5 +1,5 @@
 .welcome-section {
-    background-color: #f7f7f7; /* Light background */
+    background-color: #f7f7f7; 
     padding: 50px 20px;
     text-align: center;
   }
@@ -19,7 +19,7 @@
   .underline {
     width: 100px;
     height: 4px;
-    background-color: #ffc107; /* Yellow color for the underline */
+    background-color: #ffc107; 
     margin: 0 auto 20px auto;
   }
   

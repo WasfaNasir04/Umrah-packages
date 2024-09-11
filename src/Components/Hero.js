@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
-import './Hero.css'; // For custom styling
-import madinah from '../images/madinah.jpg'; // Import image from local src folder
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
+import './Hero.css'; 
+import madinah from '../images/madinah.jpg'; 
 
 function Hero() {
   return (

@@ -69,7 +69,7 @@
   }
   
   .card-back {
-    background-color: #ffc107; /* Yellow color */
+    background-color: #ffc107; 
     transform: rotateY(180deg);
   }
   
