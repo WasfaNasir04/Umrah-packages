@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import WelcomeSection from './Components/Welcome';
 import BannerSection from './Components/Banner';
 import ServicesSection from './Components/Services';
+import Footer from './Components/Footer';
 import './App.css'; // Global styles
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <WelcomeSection />
       <BannerSection/>
       <ServicesSection/>
+      <Footer/>
       { }
     </div>
   );
