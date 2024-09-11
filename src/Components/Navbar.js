@@ -16,7 +16,7 @@ function Navbar() {
       </div>
       <nav className="navbar">
         <div className="logo">
-          <img src="/path/to/your/logo.png" alt="Umrah Package Logo" />
+          <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/logo.png" alt="Umrah Package Logo" />
         </div>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>

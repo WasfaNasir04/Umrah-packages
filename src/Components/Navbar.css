@@ -1,11 +1,17 @@
-/* Top bar for contact info and social icons */
+/* Top Bar Styling */
 .top-bar {
+  position: fixed; /* Fixes to the viewport */
+  top: 0;
+  left: 0;
+  width: 97%; /* Full width */
   background-color: #ffcc00;
   display: flex;
   justify-content: space-between;
   padding: 5px 20px;
+  z-index: 1000; /* Ensure it stays above other content */
 }
 
+/* Contact Info Styling */
 .contact-info span {
   margin-right: 15px;
 }
@@ -18,20 +24,30 @@
 
 /* Main Navbar Styling */
 .navbar {
+  position: fixed; 
+  top: 20px; 
+  left: 0;
+  width: 97%; /* Full width */
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  background-color: white;
+  overflow: hidden;
+  z-index: 999; /* Ensure it stays below the top bar */
 }
 
+/* Logo Styling */
 .logo img {
   width: 150px;
 }
 
+/* Nav Links Styling */
 .nav-links {
   display: flex;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links li {
