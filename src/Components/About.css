@@ -1,21 +1,22 @@
 /* About Page Heading Section */
 .about-page {
   font-family: Arial, sans-serif;
+  margin-top: 150px;
 }
 
 .about-header {
   background-image: url('https://umrahpackage.com.au/wp-content/uploads/2022/07/2.jpg');
   background-size: cover;
   background-position: center;
-  height: 400px; /* Adjusted the height */
+  height: 200px; 
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* To ensure the text stays centered */
+  position: relative; 
 }
 
 .about-header h1 {
-  font-size: 50px; /* Increased font size */
+  font-size: 2rem; 
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   margin: 0; /* Ensure no extra space around the heading */
