@@ -80,6 +80,30 @@ const ServicePage = () => {
           <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/hotelbooking.jpg" alt="Hotel" />
         </div>
       </div>
+
+
+
+{/* Hotel Section */}
+<div className="ticket-content">
+        <div className="ticket-text">
+          <h2>Ticketing</h2>
+          <div className="underline-ticket"></div>
+          <p>
+          We book luxurious 5-star hotels for our customers taking our Umrah Package.
+          The hotel in Makkah and Medina we book is the clock tower which is next to 
+          Haram in Makkah and Medina.  The purpose of booking the nearest hotels from 
+          Haram is to provide the best quality services to our customers. One of 
+          the biggest advantages of the booking clock tower is our customers won’t have to 
+          walk long as it is at stone’s distance from the Haram. This will save time and our 
+          customers can spend more time in Haram worshipping Allah. Moreover, since 
+          the hotel is 5-star you will get a complimentary breakfast.
+          </p>
+          <button className="book-now-btn-ticket">BOOK NOW</button>
+        </div>
+        <div className="ticket-image">
+          <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/ticketing.jpg" alt="Ticket" />
+        </div>
+      </div>
 </div>
   );
 };
