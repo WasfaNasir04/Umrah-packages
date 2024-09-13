@@ -7,6 +7,7 @@ import WelcomeSection from './Components/Welcome';
 import BannerSection from './Components/Banner';
 import ServicesSection from './Components/Services';
 import Footer from './Components/Footer';
+import ServicePage from './Components/ServicePage';
 
 import './App.css'; // Global styles
 
@@ -25,6 +26,7 @@ function App() {
             </>
           } />
           <Route path="/About" element={<About />} />  
+          <Route path="/ServicePage" element={<ServicePage />} />
         </Routes>
         <Footer />
       </div>

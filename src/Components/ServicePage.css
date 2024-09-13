@@ -1,0 +1,75 @@
+.services-container {
+    margin-top: 0;
+  }
+  
+  /* Header section with background */
+  .services-header {
+    background-image: url('https://umrahpackage.com.au/wp-content/uploads/2022/07/2.jpg'); /* Replace with your actual background image */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services-header h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  /* Main content section */
+  .services-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+  }
+  
+  .services-text {
+    max-width: 50%;
+  }
+  
+  .services-text h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .underline {
+    width: 100px;
+    height: 3px;
+    background-color: #fcbf00; /* Yellow underline */
+    margin-bottom: 20px;
+  }
+  
+  .services-text p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+  
+  .book-now-btn {
+    background-color: #fcbf00;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Image section */
+  .services-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
