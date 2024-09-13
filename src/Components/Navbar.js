@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -16,11 +17,12 @@ function Navbar() {
       </div>
       <nav className="navbar">
         <div className="logo">
+        
           <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/logo.png" alt="Umrah Package Logo" />
         </div>
         <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/About">About Us</Link></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#packages">Packages</a></li>
           <li><a href="#gallery">Gallery</a></li>
