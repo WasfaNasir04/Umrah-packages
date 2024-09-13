@@ -27,7 +27,36 @@ const ServicePage = () => {
           <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/1.jpg" alt="Kaaba" />
         </div>
       </div>
-    </div>
+    
+
+
+    {/* Ziyarat Section */}
+    <section className="ziyarat-section">
+  <div className="ziyarat-image">
+    <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/6-1-600x400.jpeg" alt="Ziyarat" />
+  </div>
+  <div className="ziyarat-content">
+    <h2>Ziyarat</h2>
+    <div className="underline-ziyarat"></div>
+    <p>
+      Our Umrah package also includes Ziyarat in which we are going to take you to the holy places in Makkah and Medina. The holy places in Makkah include:
+    </p>
+    <ul className="ziyarat-list">
+      <li>Jannatul Mualia</li>
+      <li>Masjid Aisha</li>
+      <li>Cave of Hira</li>
+      <li>Cave of Thawr</li>
+    </ul>
+    <p>The holy places in Medina include:</p>
+    <ul className="ziyarat-list">
+      <li>Masjid e Quba</li>
+      <li>Jabal Uhud</li>
+      <li>Masjid e Ghamama</li>
+    </ul>
+    <button className="book-now-btn-ziyarat">BOOK NOW</button>
+  </div>
+</section>
+</div>
   );
 };
 
