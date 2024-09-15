@@ -1,0 +1,195 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Main container for the entire package page */
+.packages-page {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 150px;
+}
+
+/* Header with background image */
+.packages-header {
+  background-image: url('https://umrahpackage.com.au/wp-content/uploads/2022/07/2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.packages-header h1 {
+  font-size: 2.5rem; /* Slightly larger than before */
+  font-weight: 600;  /* Bold font */
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Main package container */
+.package-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 20px; 
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Heading and text inside the package container */
+.package-container h1 {
+  font-size: 23px;  
+  font-weight: 100; /* Bolder heading */
+  color: #333;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+/* Enquire now button */
+.enquiry-button {
+  margin-top: -500%;
+  background-color: #ffbf00;
+  color: rgb(12, 12, 12);
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 650px;
+  border-radius: 0px;
+  font-weight: 500;
+
+}
+
+.enquiry-button:hover {
+  background-color: #ff9900;
+}
+
+.package-container h2 {
+  font-size: 15px; /* A bit smaller for subtitle */
+  font-weight: 500;  /* Medium font weight */
+  color: #666;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.package-container p {
+  font-size: 12px; /* Slightly bigger for better readability */
+  font-weight: 400; /* Regular weight */
+  color: #555;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Table details */
+.package-details {
+  margin-top: 20px;
+}
+
+.package-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.package-details th,
+.package-details td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.package-details th {
+  background-color: #f0f0f0;
+  font-weight: 10;
+  font-size: 12px;
+}
+
+.duration p {
+  margin: 0;
+  font-size: 20px;
+  color: #666;
+}
+
+.pricing td {
+  font-weight: 10;
+  color: #333;
+  font-size: 12px;
+
+}
+
+/* Inclusions list */
+.package-inclusions {
+  display: flex;
+  margin-top: 70px;
+  border: 1px solid #eee;
+  padding: 20px;
+  background-color: #fff;
+  margin-left: 190px ;
+  margin-right: 190px ;
+}
+
+.package-left {
+  width: 25%; /* Left side is 25% of the container width */
+  padding-right: 20px;
+  border-right: 1px solid  #f3f3f3; /* Yellow border on the right */
+}
+
+.package-left h3 {
+  font-size: 15px;
+  color: #333;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.package-left p {
+  background-color: #ffbf00; /* Yellow background */
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-weight: 300;
+  border-radius: 0px;
+  font-size:10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.package-right {
+  width: 75%; /* Right side is 75% of the container width */
+  padding-left: 10px;
+}
+
+.package-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.package-right ul li {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  position: relative;
+  text-align: left;
+}
+
+.package-right ul li::before {
+  content: '•';
+  color: #3b3b3b; /* Yellow bullet */
+  position: absolute;
+  left: 0;
+  font-size: 10px;
+}
+
+

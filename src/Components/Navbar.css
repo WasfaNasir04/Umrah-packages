@@ -13,12 +13,18 @@
 
 
 .contact-info span {
-  margin-right: 15px;
+  margin-right: 2px;
+  margin-left: 100px;
+  font-size: 13px;
+  padding-inline: -50px;
+
 }
 
 .social-icons a {
   margin-left: 15px;
+  margin-right: 50px;
   text-decoration: none;
+  font-size: 13px;
   color: #000;
 }
 
@@ -32,22 +38,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding-left: 40px;
   overflow: hidden;
   z-index: 999; 
+  padding-bottom: 1px;
+  padding-top: 2px;
 }
 
 
 .logo img {
-  width: 150px;
+  width: 110px;
+  margin-left: 80px;
+  margin-top: 18px;
+
 }
 
 
 .nav-links {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-right: 150px;
+  gap: 40px;
+  margin-bottom: -10px;
 }
 
 .nav-links li {
@@ -57,9 +69,22 @@
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: 15px;
+  font-size: 12px;
 }
 
 .nav-links a:hover {
+  color: #ffcc00;
+}
+
+/* Active link style - this should be applied dynamically */
+.nav-links a.active {
+  color: #ffcc00; /* Yellow for active link */
+  font-weight: 700; /* Make the active link bold if you want */
+}
+
+/* Optionally, remove the background from the active state */
+.nav-links a:active {
+  background-color: transparent;
   color: #ffcc00;
 }

@@ -1,0 +1,172 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Main container for the entire package page */
+.contact-page {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 150px;
+}
+
+/* Header with background image */
+.contact-header {
+  background-image: url('https://umrahpackage.com.au/wp-content/uploads/2022/07/2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem; /* Slightly larger than before */
+  font-weight: 600;  /* Bold font */
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Main Contact Section */
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #ffffff;
+    
+  }
+  .left-section{
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+   .right-section {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 100px;
+  }
+  
+  /* Left: Image Section */
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:0%;
+  }
+  
+  .left-image {
+    width: 50%;
+    border-radius: 0;
+    
+  }
+
+  
+  
+  .contact-information {
+    background-color: #333;
+    color: white;
+    padding: 11px;  
+    border-radius: 0px;
+    text-align: left;
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-bottom: 40px;
+  }
+  
+  .contact-information h3{
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: left;
+    
+    
+  }
+  .contact-information p {
+   
+
+  }
+
+  .contact-information h2{
+    color: white;
+    font-size: 8px;
+    font-weight: 20;
+    text-align: left;
+  }
+
+  /* Right: Form Section */
+  .right-section {
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: -100px;
+  }
+  
+  .right-section h2 {
+    background-color: #f8bd57;
+    color: rgb(4, 4, 4);
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: 20;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
+
+  /*form */
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem; /* Space between the input containers */
+    margin-bottom: 1rem;
+    margin-right: 30px;
+  }
+  
+  .input-container {
+    width: calc(46% - 10px); 
+    border-radius: 0;
+    
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem; /* Adjust font size as needed */
+    color: #afacac; /* Text color */
+    text-align: left;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0px; 
+    box-shadow: inset 1px solid #ddd;
+    margin-bottom: 0.5rem; 
+    font-size: 10px; 
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f9b233; /* Background color */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e0a020; /* Darker background on hover */
+  }
+  
+  

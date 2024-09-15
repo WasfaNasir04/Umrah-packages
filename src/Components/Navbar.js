@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -16,19 +17,18 @@ function Navbar() {
         </div>
       </div>
       <nav className="navbar">
-        <div className="logo">
-        
-          <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/logo.png" alt="Umrah Package Logo" />
-        </div>
-        <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/About">About Us</Link></li>
-        <li><Link to="/ServicePage">Services</Link></li>
-          <li><a href="#packages">Packages</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
+  <div className="logo">
+    <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/logo.png" alt="Umrah Package Logo" />
+  </div>
+  <ul className="nav-links">
+    <li><NavLink exact to="/" activeClassName="active">HOME</NavLink></li>
+    <li><NavLink to="/About" activeClassName="active">ABOUT US</NavLink></li>
+    <li><NavLink to="/ServicePage" activeClassName="active">SERVICES</NavLink></li>
+    <li><NavLink to="/Packages" activeClassName="active">PACKAGES</NavLink></li>
+    <li><a href="#gallery">GALLERY</a></li> {/* Anchor tag for in-page link */}
+    <li><NavLink to="/ContactForm" activeClassName="active">CONTACT US</NavLink></li>
+  </ul>
+</nav>
     </header>
   );
 }

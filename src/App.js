@@ -8,6 +8,8 @@ import BannerSection from './Components/Banner';
 import ServicesSection from './Components/Services';
 import Footer from './Components/Footer';
 import ServicePage from './Components/ServicePage';
+import Packages from './Components/packages';
+import ContactForm from './Components/ContactForm';
 
 import './App.css'; // Global styles
 
@@ -27,6 +29,8 @@ function App() {
           } />
           <Route path="/About" element={<About />} />  
           <Route path="/ServicePage" element={<ServicePage />} />
+          <Route path="/packages" element={<Packages />} />
+          <Route path="/ContactForm" element={<ContactForm />} />
         </Routes>
         <Footer />
       </div>
