@@ -25,7 +25,7 @@ function Navbar() {
     <li><NavLink to="/About" activeClassName="active">ABOUT US</NavLink></li>
     <li><NavLink to="/ServicePage" activeClassName="active">SERVICES</NavLink></li>
     <li><NavLink to="/Packages" activeClassName="active">PACKAGES</NavLink></li>
-    <li><a href="#gallery">GALLERY</a></li> {/* Anchor tag for in-page link */}
+    <li><NavLink to="/Gallery" activeClassName="active">GALLERY</NavLink></li>
     <li><NavLink to="/ContactForm" activeClassName="active">CONTACT US</NavLink></li>
   </ul>
 </nav>

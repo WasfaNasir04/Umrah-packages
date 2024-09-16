@@ -3,13 +3,15 @@ import './Welcome.css';
 
 function WelcomeSection() {
   return (
+    <div className="welcome-page">
+      
     <section id="welcome" className="welcome-section">
       <div className="welcome-container">
         <h2 className="welcome-title">Welcome To Umrah Packages</h2>
-        <div className="underline"></div>
+        <div className="underline-text"></div>
         <blockquote className="quote">
           “Proclaim to men the pilgrimage: they will come to thee on foot and on every lean camel, 
-          coming from every remote path.” — Al Quran
+          coming from every remote path.” Al Quran
         </blockquote>
         <p className="welcome-description">
           Performing Umrah is like a dream come true for every Muslim because Allah chooses 
@@ -20,6 +22,7 @@ function WelcomeSection() {
         </p>
       </div>
     </section>
+    </div>
   );
 }
 

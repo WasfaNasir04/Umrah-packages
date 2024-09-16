@@ -10,6 +10,8 @@ import Footer from './Components/Footer';
 import ServicePage from './Components/ServicePage';
 import Packages from './Components/packages';
 import ContactForm from './Components/ContactForm';
+import Gallery from './Components/Gallery';
+import GalleryHome from './Components/GalleryHome';
 
 import './App.css'; // Global styles
 
@@ -25,12 +27,14 @@ function App() {
               <WelcomeSection />
               <BannerSection />
               <ServicesSection />
+              <GalleryHome/>
             </>
           } />
           <Route path="/About" element={<About />} />  
           <Route path="/ServicePage" element={<ServicePage />} />
           <Route path="/packages" element={<Packages />} />
           <Route path="/ContactForm" element={<ContactForm />} />
+          <Route path="/Gallery" element={<Gallery />} />
         </Routes>
         <Footer />
       </div>

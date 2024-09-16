@@ -1,37 +1,22 @@
-/* Adjust margin-top for gallery section */
-.gallery-contain {
-    margin-top: 120px;
-    font-family: 'Poppins', sans-serif;
+.gallery-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
   }
   
-  /* Gallery header with background image and centered text */
-  .gallery-header {
-    background-image: url('https://umrahpackage.com.au/wp-content/uploads/2022/07/2.jpg'); 
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  
-  .gallery-header h1 {
-    font-size: 2.5rem; /* Slightly larger than before */
-    font-weight: 600;  /* Bold font */
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    margin: 0;
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .underline-text {
+    width: 150px;
+    height: 1.5px;
+    background-color: #ffc107; 
+    margin: 0 auto 20px auto;
+   
   }
   
   /* Main gallery section styling */
   .gallery-section {
     padding: 50px 20px;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     text-align: center;
     background-image: url('https://umrahpackage.com.au/wp-content/uploads/2022/07/my3.png');
     background-repeat: no-repeat;

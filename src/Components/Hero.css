@@ -1,10 +1,11 @@
 .hero {
   position: relative;
+  overflow: hidden;
 }
 
 .carousel .slide img {
   width: 100%;
-  height: 600px; 
+  height: 700px; 
   object-fit: cover; 
 }
 
@@ -15,22 +16,30 @@
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); 
+  /* background-color: rgba(0, 0, 0, 0.5);  */
   color: white;
-  padding: 20px;
-  border-radius: 5px;
-  width: 70%;
+  /* padding: 20px; */
+  border-radius: 0px;
+  width: 30%;
 }
 
 .hero-caption h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding-bottom: 10px;
 }
 
 .hero-caption p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: 10px 0;
+  color:#ffcc00;
+  background-color: rgba(0, 0, 0, 0.5); 
+  font-weight: 70px;
+  border-radius: 0;
+  margin-top: 20px;
 }
 
 .btn-primary {
@@ -38,11 +47,12 @@
   color: #333;
   padding: 10px 20px;
   border: none;
-  font-weight: bold;
+  font-weight: lighter;
   cursor: pointer;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 0px;
   transition: background-color 0.3s;
+  font-size: 10px;
 }
 
 .btn-primary:hover {
@@ -52,5 +62,102 @@
 @media (max-width: 768px) {
   .carousel .slide img {
     height: 400px; 
+  }
+}
+
+/* Custom next/prev button styles */
+.custom-prev, .custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 0; /* Circular button */
+  cursor: pointer;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.custom-prev {
+  left: 0px; /* Position to the left */
+}
+
+.custom-next {
+  right: 0px; /* Position to the right */
+}
+
+.custom-prev:hover, .custom-next:hover {
+  background-color:rgba(0, 0, 0, 0.5); 
+}
+
+/* Arrows inside the buttons */
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Show buttons when hovering over the carousel */
+.hero:hover .custom-prev, 
+.hero:hover .custom-next {
+  opacity: 1; /* Make buttons visible on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel .slide img {
+    height: 400px; /* Adjust height on smaller screens */
+  }
+
+  .hero-caption {
+    width: 90%;
+    padding: 15px;
+    bottom: 15%;
+  }
+
+  .hero-caption h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .hero-caption p {
+    font-size: 1.2rem;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel .slide img {
+    height: 300px;
+  }
+
+  .hero-caption h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-caption p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    padding: 8px 18px;
+    font-size: 0.8rem;
   }
 }

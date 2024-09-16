@@ -13,21 +13,35 @@ function Hero() {
         showThumbs={false}
         showIndicators={false}
         showStatus={false}
+        renderArrowPrev={(onClickHandler, hasPrev, label) =>
+          hasPrev && (
+            <button type="button" onClick={onClickHandler} className="custom-prev">
+              <i className="arrow left"></i>
+            </button>
+          )
+        }
+        renderArrowNext={(onClickHandler, hasNext, label) =>
+          hasNext && (
+            <button type="button" onClick={onClickHandler} className="custom-next">
+              <i className="arrow right"></i>
+            </button>
+          )
+        }
+      
       >
         <div>
           <img src={madinah} alt="Madinah" />
           <div className="hero-caption">
             <h1>Umrah Package</h1>
             <p>Starting From $5370</p>
-            <button className="btn-primary">Learn More</button>
+            <button className="btn-primary">Details</button>
           </div>
         </div>
         <div>
           <img src="https://umrahpackage.com.au/wp-content/uploads/2022/07/s2.jpg" alt="Spiritual Journey" />
           <div className="hero-caption">
-            <h1>Spiritual Journey Awaits</h1>
-            <p>Explore our range of packages designed for a memorable experience.</p>
-            <button className="btn-primary">Explore Packages</button>
+            <h1>Private Package</h1>
+            <button className="btn-primary">Details</button>
           </div>
         </div>
       </Carousel>

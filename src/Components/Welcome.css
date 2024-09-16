@@ -1,41 +1,67 @@
+.welcome-page{
+  background-image: url('https://umrahpackage.com.au/wp-content/uploads/2022/07/vector-marble-background-white-gray-marble-texture_11554-980.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .welcome-section {
-    background-color: #f7f7f7; 
-    padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+   position: relative;
+    padding: 20px 10px; 
     text-align: center;
-  }
+    margin: 0 auto;
+  position: relative;
+  z-index: 2; /* Content stays above background */
+  /* background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 0px; /*Rounded corners for a smooth look */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Light shadow for depth    */
+  } 
   
   .welcome-container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
+  position: relative;
+  text-align: center;
+  position: relative;
+  z-index: 2; /* Content stays above background */
+  margin-top: 40px;
+ 
+  
+}
   
   .welcome-title {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: #333;
     margin-bottom: 10px;
   }
   
-  .underline {
-    width: 100px;
-    height: 4px;
-    background-color: #ffc107; 
+  .underline-text {
+    width: 150px;
+    height: 0.5px;
+    background-color: #fcd665; 
     margin: 0 auto 20px auto;
+   
   }
   
   .quote {
     font-size: 1.5rem;
-    font-style: italic;
+    font-style:normal;
     color: #555;
-    background-color: #fff;
+    background-color: #f1f1f1;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
   }
   
   .welcome-description {
-    font-size: 1.1rem;
-    color: #555;
+    font-size: 0.9rem;
+    color: #9d9d9d;
     line-height: 1.8;
   }
   
